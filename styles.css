@@ -103,15 +103,15 @@ a {
   display: flex;
   text-align: center;
   justify-content: center;
-  gap: 40px;
+  gap: 49px;
 }
 
 .cards {
-  width: 110px;
+  width: 130px;
 }
 
 .cards .image {
-  width: 110px;
+  width: 130px;
   aspect-ratio: 1;
   border: 5px solid #2465b7;
   border-radius: 10px;
@@ -120,4 +120,28 @@ a {
 .cards p {
   opacity: 0.8;
 }
+
+/*Quote section*/
+
+.quote {
+  height: 400px;
+  background-color: #e5e7eb;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.quote p {
+  font-size: 36px;
+  font-weight: lighter;
+  color: #1f2937;
+  opacity: .8;
+  font-style: italic;
+}
+
+.quote h3 {
+  text-align: right;
+  color: #1f2937;
+}
+
 

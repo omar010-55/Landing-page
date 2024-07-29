@@ -186,3 +186,17 @@ h4 {
   font-size: 16px;
 }
 
+/* Footer */
+.footer {
+  height: 80px;
+  background-color: #1f2937;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.footer p {
+  font-weight: bold;
+  font-size: 16px;
+}
